@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in | AgroConnect</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="shortcut icon" href="Images/Agriculture.png" type="image/x-icon">
+  <style>
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.left{
+    margin-top: 240px;
+    margin-left: 150px;
+    width: 100%;
+}
+
+section{
+    background-color:#f0f2f5;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: -110px;
+}
+.small p{
+    font-size: 23px;
+    font-weight: bolder;
+    
+}
+.left, .right,.small{
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.left h2{
+    font-size: 44px;
+    padding-left: 250px;
+    font-weight: normal;
+    
+}
+.right{
+    width: 100%;
+    margin: 25px auto;
+    display: flex;
+    
+}
+form{
+    width: 60vh;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 3%;
+    background-color: white;
+    height: 50vh;
+    margin: auto;
+}
+input,a,button{
+    margin: 16px;
+    padding: 15px;
+    
+}
+.bottom{
+    margin-bottom: 20px;
+    background-color: #166fe5;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-color: #365899;
+    border-radius: 6px;
+    font-weight: bolder;
+    border: none;
+
+    
+}
+footer a{
+    padding: 0;
+    margin: 0;
+}
+.bottom:hover{
+    color: #00ef;
+    cursor: pointer;
+    border: none;
+
+}
+.bottom2{
+    padding: 10px 20px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+}
+.bottom2:hover{
+    color: greenyellow;
+    cursor: pointer;
+    border: none;
+
+}
+.line{
+    border-top: 2px solid black;
+    opacity: 0.2;
+    margin: 16px;
+}
+input[type='text']{
+    font-size: 20px;
+}
+input[type='password']{
+    font-size: 20px;
+}
+#psw{
+    font-size: 24px;
+}
+#psw:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+input:hover{
+    border:3px solid #166fe5;
+
+}
+
+  </style>
+</head>
+<body>
+    <div class="topnav">
+        <div class="content">
+          <div class="logo">
+            <a href="#"><img src="images/AgroConnect Logo.png" alt="" width="240" height="230"></a>
+          </div>
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" target="_blank">About</a>
+            <a href="contact.html" target="_blank">Contact</a>
+            <a href="product.html">Product</a>
+            <a class="active" href="signup.html">Sign Up</a>
+            <a href="order.html">Log In</a>
+          </nav>
+          <a href="#" class="icon1">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </div>
+    <div class="top" style="margin-top: 2%;">
+
+    </div>
+    <section>
+        <div class="left">
+            <img src="images/AgroConnect Logo.png" alt="">
+        </div>
+        <div class="right">
+            <form action="/order.html">
+                <input type="text" placeholder="Email or phone number">
+                <input type="password" name="" id="" placeholder="Password">
+                <button class="bottom" type="submit">Log in</button>
+        
+                <a id="psw" href="#">Forgot Password?</a>
+                <p class="line"></p>
+                <a href="./signup.html"><button class="bottom2">Create New Account</button></a>
+                
+            </form>
+                 
+        </div>
+
+    </section>
+    <footer class="footer-distributed">
+        <div class="middle">
+    
+            <div class="footer-left">
+                <!-- <img src="Images/AgroConnect Logo.png" height="120" width="100"> -->
+                <h3>Agro<span>Connect</span></h3>
+    
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    |
+                    <a href="#">About</a>
+                    |
+                    <a href="#">Contact</a>
+                    |
+                    <a href="#">Product</a>
+    
+                </p>
+    
+                <p class="footer-company-name">© 2022 AgroConnect Solutions Ltd.</p>
+            </div>
+    
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>309 - Rupa Solitaire,
+                            Bldg. No. A - 1, Sector - 1</span>
+                        Victoria Island, Lagos Nigeria - 400710</p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+234 22-27782183</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@agriconnect.com">support@AgroConnect.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    We help connect you to organic Farm produce. Directly from the Farm
+                    to potential Buyers
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
